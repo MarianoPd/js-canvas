@@ -1,0 +1,73 @@
+[
+    {"inputs":[
+        {
+            "type": "text",
+            "name": "name",
+            "required": true,
+            "min": 2,
+            "max": 15,
+            "label": "Name"
+        },
+        {
+            "type": "text",
+            "name": "Surname",
+            "required": true,
+            "min": 2,
+            "max": 15,
+            "label": "Surname"
+        },
+        {
+            "type": "email",
+            "name": "email",
+            "required": false,
+            "min": 2,
+            "max": 30,
+            "label": "Email"
+        },
+        {
+            "type": "number",
+            "name": "number",
+            "required": false,
+            "min": 2,
+            "max": 100,
+            "label": "Age?"
+        },
+        {
+            "type": "checkbox",
+            "name": "check",
+            "required": false,
+            "min": 2,
+            "max": 10,
+            "label": "Are you 'apposto'?"
+        },
+        {
+            "type": "radio",
+            "name": "radio",
+            "required": false,
+            "min": 2,
+            "max": 10,
+            "label": "Thing"
+        },
+        {
+            "type": "select",
+            "name": "select",
+            "required": false,
+            "min": 2,
+            "max": 10,
+            "label": "Are you a:",
+            "options": [
+                "Man",
+                "Woman",
+                "Mind your own business"
+            ]
+        },
+        {
+            "type": "file",
+            "name": "file",
+            "required": false,
+            "min": 2,
+            "max": 10,
+            "label": "Photo"
+        }
+    ]}
+]

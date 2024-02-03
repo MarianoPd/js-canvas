@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(244, 228, 163);
+    padding: 50px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-title{
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.canvas{
+    display: block;
+    margin: 0 auto;
+    /* background-color: white; */
+    background-color: rgb(109, 149, 113);
+    border: 5px solid rgb(96, 96, 96);
+    border-radius: 5px;
+}
+
+.start{
+    padding: 10px 15px;
+    
+    margin: 50px;
+    background-color: greenyellow;
+}
+
+.start.started{
+    
+    background-color: red;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
